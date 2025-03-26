@@ -1,0 +1,578 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_image",
+        "importPath": "backend.image_analysis",
+        "description": "backend.image_analysis",
+        "isExtraImport": true,
+        "detail": "backend.image_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "generate_story",
+        "importPath": "backend.story_generator",
+        "description": "backend.story_generator",
+        "isExtraImport": true,
+        "detail": "backend.story_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_story",
+        "importPath": "backend.story_generator",
+        "description": "backend.story_generator",
+        "isExtraImport": true,
+        "detail": "backend.story_generator",
+        "documentation": {}
+    },
+    {
+        "label": "continue_story",
+        "importPath": "backend.story_generator",
+        "description": "backend.story_generator",
+        "isExtraImport": true,
+        "detail": "backend.story_generator",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "BlipProcessor",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BlipForConditionalGeneration",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForCausalLM",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "backend.api_routes",
+        "description": "backend.api_routes",
+        "isExtraImport": true,
+        "detail": "backend.api_routes",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "graph_executor",
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "isExtraImport": true,
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "initial_state",
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "isExtraImport": true,
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "snapshot_download",
+        "importPath": "huggingface_hub",
+        "description": "huggingface_hub",
+        "isExtraImport": true,
+        "detail": "huggingface_hub",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api_routes",
+        "description": "backend.api_routes",
+        "peekOfCode": "router = APIRouter()\nlogging.basicConfig(level=logging.INFO)\n@router.post(\"/upload-image/\")\nasync def upload_image(file: UploadFile = File(...)):\n    \"\"\"Handles image uploads, extracts captions, and generates a story.\"\"\"\n    try:\n        image_caption = await analyze_image(file)\n        logging.info(f\"📝 Generated Caption: {image_caption}\")  # Debugging\n        if not image_caption:\n            raise HTTPException(status_code=400, detail=\"Image analysis failed!\")",
+        "detail": "backend.api_routes",
+        "documentation": {}
+    },
+    {
+        "label": "OPENAI_API_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "OPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\nPINECONE_API_KEY = os.getenv(\"PINECONE_API_KEY\")\nPINECONE_ENV = os.getenv(\"PINECONE_ENV\")\nFIREWORKS_API_KEY = os.getenv(\"FIREWORKS_API_KEY\")\nLANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "PINECONE_API_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "PINECONE_API_KEY = os.getenv(\"PINECONE_API_KEY\")\nPINECONE_ENV = os.getenv(\"PINECONE_ENV\")\nFIREWORKS_API_KEY = os.getenv(\"FIREWORKS_API_KEY\")\nLANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "PINECONE_ENV",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "PINECONE_ENV = os.getenv(\"PINECONE_ENV\")\nFIREWORKS_API_KEY = os.getenv(\"FIREWORKS_API_KEY\")\nLANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "FIREWORKS_API_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "FIREWORKS_API_KEY = os.getenv(\"FIREWORKS_API_KEY\")\nLANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "LANGCHAIN_API_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "LANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "LANGFUSE_API_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "LANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "HUGGINGFACE_API_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "HUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_ACCESS_KEY_ID",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "AWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_SECRET_ACCESS_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "AWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "backend.image_analysis",
+        "description": "backend.image_analysis",
+        "peekOfCode": "device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\n# ✅ Load BLIP captioning model\nblip_model_id = \"Salesforce/blip-image-captioning-base\"\nblip_processor = BlipProcessor.from_pretrained(blip_model_id, use_fast=False)\nblip_model = BlipForConditionalGeneration.from_pretrained(blip_model_id).to(device)\nasync def analyze_image(file):\n    \"\"\"Processes an image and generates a caption using BLIP.\"\"\"\n    try:\n        # ✅ Read and open image correctly from FastAPI's UploadFile object\n        image_bytes = await file.read()  # Read file bytes",
+        "detail": "backend.image_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "blip_model_id",
+        "kind": 5,
+        "importPath": "backend.image_analysis",
+        "description": "backend.image_analysis",
+        "peekOfCode": "blip_model_id = \"Salesforce/blip-image-captioning-base\"\nblip_processor = BlipProcessor.from_pretrained(blip_model_id, use_fast=False)\nblip_model = BlipForConditionalGeneration.from_pretrained(blip_model_id).to(device)\nasync def analyze_image(file):\n    \"\"\"Processes an image and generates a caption using BLIP.\"\"\"\n    try:\n        # ✅ Read and open image correctly from FastAPI's UploadFile object\n        image_bytes = await file.read()  # Read file bytes\n        image = Image.open(io.BytesIO(image_bytes)).convert(\"RGB\")\n        # ✅ Prepare inputs for BLIP model",
+        "detail": "backend.image_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "blip_processor",
+        "kind": 5,
+        "importPath": "backend.image_analysis",
+        "description": "backend.image_analysis",
+        "peekOfCode": "blip_processor = BlipProcessor.from_pretrained(blip_model_id, use_fast=False)\nblip_model = BlipForConditionalGeneration.from_pretrained(blip_model_id).to(device)\nasync def analyze_image(file):\n    \"\"\"Processes an image and generates a caption using BLIP.\"\"\"\n    try:\n        # ✅ Read and open image correctly from FastAPI's UploadFile object\n        image_bytes = await file.read()  # Read file bytes\n        image = Image.open(io.BytesIO(image_bytes)).convert(\"RGB\")\n        # ✅ Prepare inputs for BLIP model\n        inputs = blip_processor(images=image, return_tensors=\"pt\").to(device)",
+        "detail": "backend.image_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "blip_model",
+        "kind": 5,
+        "importPath": "backend.image_analysis",
+        "description": "backend.image_analysis",
+        "peekOfCode": "blip_model = BlipForConditionalGeneration.from_pretrained(blip_model_id).to(device)\nasync def analyze_image(file):\n    \"\"\"Processes an image and generates a caption using BLIP.\"\"\"\n    try:\n        # ✅ Read and open image correctly from FastAPI's UploadFile object\n        image_bytes = await file.read()  # Read file bytes\n        image = Image.open(io.BytesIO(image_bytes)).convert(\"RGB\")\n        # ✅ Prepare inputs for BLIP model\n        inputs = blip_processor(images=image, return_tensors=\"pt\").to(device)\n        # ✅ Generate caption",
+        "detail": "backend.image_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "ImageCaptionRequest",
+        "kind": 6,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "class ImageCaptionRequest(BaseModel):\n    image_caption: str\nclass ContinueStoryRequest(BaseModel):\n    story: str\n    user_choice: str\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"Welcome to AI Story Generator API!\"}\n# ✅ Logging\nlogging.basicConfig(level=logging.INFO)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "ContinueStoryRequest",
+        "kind": 6,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "class ContinueStoryRequest(BaseModel):\n    story: str\n    user_choice: str\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"Welcome to AI Story Generator API!\"}\n# ✅ Logging\nlogging.basicConfig(level=logging.INFO)\n@app.post(\"/generate_story\")\nasync def generate_story_endpoint(request: ImageCaptionRequest):",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def home():\n    return {\"message\": \"Welcome to AI Story Generator API!\"}\n# ✅ Logging\nlogging.basicConfig(level=logging.INFO)\n@app.post(\"/generate_story\")\nasync def generate_story_endpoint(request: ImageCaptionRequest):\n    logging.info(f\"📝 Received request: {request}\")\n    return generate_story(request.image_caption)\n@app.post(\"/continue_story\")\nasync def continue_story_endpoint(request: ContinueStoryRequest):",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI(title=\"AI Story Generator\")\napp.include_router(router)\nclass ImageCaptionRequest(BaseModel):\n    image_caption: str\nclass ContinueStoryRequest(BaseModel):\n    story: str\n    user_choice: str\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"Welcome to AI Story Generator API!\"}",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "generate_story",
+        "kind": 2,
+        "importPath": "backend.story_generator",
+        "description": "backend.story_generator",
+        "peekOfCode": "def generate_story(image_caption):\n    \"\"\"Generates a story based on an image caption.\"\"\"\n    state = initial_state(image_caption)\n    final_state = graph_executor.invoke(state)\n    return {\n        \"story\": final_state[\"story\"],\n        \"choices\": final_state[\"choices\"]\n    }\n# def continue_story(story, user_choice):\n#     \"\"\"Continue the story based on the user’s choice with optimized performance.\"\"\"",
+        "detail": "backend.story_generator",
+        "documentation": {}
+    },
+    {
+        "label": "continue_story",
+        "kind": 2,
+        "importPath": "backend.story_generator",
+        "description": "backend.story_generator",
+        "peekOfCode": "def continue_story(story, user_choice):\n    \"\"\"Continue the story based on the user’s choice with optimized performance.\"\"\"\n    state = {\"story\": story, \"user_choice\": user_choice}\n    # More descriptive prompt with better context for improved continuity\n    state[\"prompt\"] = (\n        f\"Continue this immersive story with the following twist: {user_choice}.\\n\"\n        f\"Keep the storyline engaging, add emotional depth, and introduce a surprise or new challenge.\"\n    )\n    # Invoke the optimized graph execution\n    final_state = graph_executor.invoke(state)",
+        "detail": "backend.story_generator",
+        "documentation": {}
+    },
+    {
+        "label": "initial_state",
+        "kind": 2,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "def initial_state(image_caption: str) -> Dict[str, Any]:\n    return {\n        \"image_caption\": image_caption,\n        \"story\": \"\",\n        \"choices\": [],\n        \"story_continued\": False  # ✅ New flag to track story continuation\n    }\n#  Generate initial story based on image caption\ndef generate_story(state: Dict[str, Any]) -> Dict[str, Any]:\n    prompt = (",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "generate_story",
+        "kind": 2,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "def generate_story(state: Dict[str, Any]) -> Dict[str, Any]:\n    prompt = (\n        f\"Write a captivating story inspired by the scene: {state['image_caption']}.\\n\\n\"\n        f\"Include vivid emotions, sensory details, and a hint of mystery or surprise.\"\n    )\n    inputs = tokenizer(prompt, return_tensors=\"pt\").to(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n    # Generate the story with creative, diverse sampling\n    outputs = model.generate(**inputs, max_new_tokens=150, do_sample=True, temperature=0.8, top_p=0.9)\n    state[\"story\"] = tokenizer.decode(outputs[0], skip_special_tokens=True)\n    # Provide initial story choices",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "handle_choice",
+        "kind": 2,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "def handle_choice(state: Dict[str, Any], user_choice: str) -> Dict[str, Any]:\n    # Append user choice to the selections history for tracking\n    state[\"user_selections\"].append(user_choice)\n    # Update prompt to continue story with user twist\n    prompt = f\"Continue this story with the following twist: {user_choice}. Make the plot deeper, and introduce unexpected developments.\"\n    inputs = tokenizer(prompt, return_tensors=\"pt\").to(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n    # Generate the continuation with adjusted parameters for creativity\n    outputs = model.generate(**inputs, max_new_tokens=150, do_sample=True, temperature=0.85, top_k=40)\n    state[\"story\"] += \"\\n\\n\" + tokenizer.decode(outputs[0], skip_special_tokens=True)\n    # Generate dynamic choices based on the current story content",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "generate_dynamic_choices",
+        "kind": 2,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "def generate_dynamic_choices(story: str) -> list:\n    \"\"\"Generate choices by analyzing the latest part of the story.\"\"\"\n    if \"storm\" in story:\n        return [\"Seek shelter in a nearby cave\", \"Confront the storm head-on\", \"Find a guide to navigate through the storm\"]\n    elif \"map\" in story:\n        return [\"Follow the map's hidden clues\", \"Burn the map and walk away\", \"Seek help from a mysterious traveler\"]\n    else:\n        return [\"Introduce a powerful adversary\", \"Reveal a hidden treasure\", \"Change the setting dramatically\"]\n# ✅ Define LangGraph flow\nstory_graph = StateGraph(dict)  # ✅ Define state as a dictionary",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_NAME",
+        "kind": 5,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "MODEL_NAME = \"microsoft/Phi-3.5-mini-instruct\"\n# ✅ Load tokenizer and model\ntokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)\nmodel = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\n# ✅ Initial state with image caption and user-selected story progression data\n# def initial_state(image_caption: str) -> Dict[str, Any]:\n#     return {\n#         \"image_caption\": image_caption,",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)\nmodel = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\n# ✅ Initial state with image caption and user-selected story progression data\n# def initial_state(image_caption: str) -> Dict[str, Any]:\n#     return {\n#         \"image_caption\": image_caption,\n#         \"story\": \"\",\n#         \"choices\": [],",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "model = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\n# ✅ Initial state with image caption and user-selected story progression data\n# def initial_state(image_caption: str) -> Dict[str, Any]:\n#     return {\n#         \"image_caption\": image_caption,\n#         \"story\": \"\",\n#         \"choices\": [],\n#         \"user_selections\": []  # Track user choices for continuity",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "story_graph",
+        "kind": 5,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "story_graph = StateGraph(dict)  # ✅ Define state as a dictionary\nstory_graph.add_node(\"generate_story\", generate_story)\nstory_graph.add_node(\"handle_choice\", handle_choice)\nstory_graph.set_entry_point(\"generate_story\")\n# story_graph.add_conditional_edges(\"handle_choice\", lambda state: \"handle_choice\" if state[\"choices\"] else END)\n# Automatically transition from \"generate_story\" to \"handle_choice\" after the first generation\nstory_graph.add_conditional_edges(\"generate_story\", lambda state: \"handle_choice\")\n# Loop \"handle_choice\" for continuing the story until the user ends it\nstory_graph.add_conditional_edges(\"handle_choice\", lambda state: \"handle_choice\" if state.get(\"choices\") else END)\ngraph_executor = story_graph.compile()",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "graph_executor",
+        "kind": 5,
+        "importPath": "backend.story_graph",
+        "description": "backend.story_graph",
+        "peekOfCode": "graph_executor = story_graph.compile()",
+        "detail": "backend.story_graph",
+        "documentation": {}
+    },
+    {
+        "label": "BACKEND_URL",
+        "kind": 5,
+        "importPath": "frontend.app",
+        "description": "frontend.app",
+        "peekOfCode": "BACKEND_URL = \"http://127.0.0.1:8000\"  # Ensure this matches your backend port\n# Streamlit UI\nst.set_page_config(page_title=\"AI Story Generator\", layout=\"wide\")\nst.title(\"📖 AI-Powered Story Generator\")\n# Ensure proper state initialization for story and image caption\nif \"story_state\" not in st.session_state:\n    st.session_state[\"story_state\"] = {}\nif \"image_caption\" not in st.session_state:\n    st.session_state[\"image_caption\"] = \"\"\n# Upload Image",
+        "detail": "frontend.app",
+        "documentation": {}
+    },
+    {
+        "label": "uploaded_file",
+        "kind": 5,
+        "importPath": "frontend.app",
+        "description": "frontend.app",
+        "peekOfCode": "uploaded_file = st.file_uploader(\"Upload an image to generate a story\", type=[\"png\", \"jpg\", \"jpeg\"])\nif uploaded_file:\n    image = Image.open(uploaded_file)\n    st.image(image, caption=\"Uploaded Image\", use_column_width=True)\n    # Convert image to bytes\n    image_bytes = io.BytesIO()\n    image.save(image_bytes, format=\"PNG\")\n    image_bytes = image_bytes.getvalue()\n    # Button to generate story, with unique key for handling state\n    if st.button(\"Generate Story\", key=\"generate_story_btn\"):",
+        "detail": "frontend.app",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "url = \"http://127.0.0.1:5000/upload-image/\"\nfile_path = \"test_image.jpg\"  # Make sure this image exists\nwith open(file_path, \"rb\") as image_file:\n    files = {\"file\": (file_path, image_file, \"image/jpeg\")}\n    response = requests.post(url, files=files)\nprint(f\"Status Code: {response.status_code}\")  # Print status code\nprint(\"Raw Response Content:\", response.text)  # Print raw response",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "file_path = \"test_image.jpg\"  # Make sure this image exists\nwith open(file_path, \"rb\") as image_file:\n    files = {\"file\": (file_path, image_file, \"image/jpeg\")}\n    response = requests.post(url, files=files)\nprint(f\"Status Code: {response.status_code}\")  # Print status code\nprint(\"Raw Response Content:\", response.text)  # Print raw response",
+        "detail": "test",
+        "documentation": {}
+    }
+]
