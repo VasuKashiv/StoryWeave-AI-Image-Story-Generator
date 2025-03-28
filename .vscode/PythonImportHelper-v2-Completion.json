@@ -556,23 +556,5 @@
         "peekOfCode": "uploaded_file = st.file_uploader(\"Upload an image to generate a story\", type=[\"png\", \"jpg\", \"jpeg\"])\nif uploaded_file:\n    image = Image.open(uploaded_file)\n    st.image(image, caption=\"Uploaded Image\", use_column_width=True)\n    # Convert image to bytes\n    image_bytes = io.BytesIO()\n    image.save(image_bytes, format=\"PNG\")\n    image_bytes = image_bytes.getvalue()\n    # Button to generate story, with unique key for handling state\n    if st.button(\"Generate Story\", key=\"generate_story_btn\"):",
         "detail": "frontend.app",
         "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "url = \"http://127.0.0.1:5000/upload-image/\"\nfile_path = \"test_image.jpg\"  # Make sure this image exists\nwith open(file_path, \"rb\") as image_file:\n    files = {\"file\": (file_path, image_file, \"image/jpeg\")}\n    response = requests.post(url, files=files)\nprint(f\"Status Code: {response.status_code}\")  # Print status code\nprint(\"Raw Response Content:\", response.text)  # Print raw response",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "file_path",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "file_path = \"test_image.jpg\"  # Make sure this image exists\nwith open(file_path, \"rb\") as image_file:\n    files = {\"file\": (file_path, image_file, \"image/jpeg\")}\n    response = requests.post(url, files=files)\nprint(f\"Status Code: {response.status_code}\")  # Print status code\nprint(\"Raw Response Content:\", response.text)  # Print raw response",
-        "detail": "test",
-        "documentation": {}
     }
 ]

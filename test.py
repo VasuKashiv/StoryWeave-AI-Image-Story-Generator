@@ -56,16 +56,16 @@
 # print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 
-import requests
+# import requests
 
-url = "http://127.0.0.1:5000/upload-image/"
-file_path = "test_image.jpg"  # Make sure this image exists
+# url = "http://127.0.0.1:5000/upload-image/"
+# file_path = "test_image.jpg"  # Make sure this image exists
 
-with open(file_path, "rb") as image_file:
-    files = {"file": (file_path, image_file, "image/jpeg")}
-    response = requests.post(url, files=files)
+# with open(file_path, "rb") as image_file:
+#     files = {"file": (file_path, image_file, "image/jpeg")}
+#     response = requests.post(url, files=files)
 
-print(f"Status Code: {response.status_code}")  # Print status code
-print("Raw Response Content:", response.text)  # Print raw response
+# print(f"Status Code: {response.status_code}")  # Print status code
+# print("Raw Response Content:", response.text)  # Print raw response
 
 
