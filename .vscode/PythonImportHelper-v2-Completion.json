@@ -105,23 +105,6 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "torch",
         "kind": 6,
         "isExtraImport": true,
@@ -288,87 +271,6 @@
         "documentation": {}
     },
     {
-        "label": "OPENAI_API_KEY",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "OPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\nPINECONE_API_KEY = os.getenv(\"PINECONE_API_KEY\")\nPINECONE_ENV = os.getenv(\"PINECONE_ENV\")\nFIREWORKS_API_KEY = os.getenv(\"FIREWORKS_API_KEY\")\nLANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
-        "label": "PINECONE_API_KEY",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "PINECONE_API_KEY = os.getenv(\"PINECONE_API_KEY\")\nPINECONE_ENV = os.getenv(\"PINECONE_ENV\")\nFIREWORKS_API_KEY = os.getenv(\"FIREWORKS_API_KEY\")\nLANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
-        "label": "PINECONE_ENV",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "PINECONE_ENV = os.getenv(\"PINECONE_ENV\")\nFIREWORKS_API_KEY = os.getenv(\"FIREWORKS_API_KEY\")\nLANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
-        "label": "FIREWORKS_API_KEY",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "FIREWORKS_API_KEY = os.getenv(\"FIREWORKS_API_KEY\")\nLANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
-        "label": "LANGCHAIN_API_KEY",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "LANGCHAIN_API_KEY = os.getenv(\"LANGCHAIN_API_KEY\")\nLANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
-        "label": "LANGFUSE_API_KEY",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "LANGFUSE_API_KEY = os.getenv(\"LANGFUSE_API_KEY\")\nHUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
-        "label": "HUGGINGFACE_API_KEY",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "HUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nAWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
-        "label": "AWS_ACCESS_KEY_ID",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "AWS_ACCESS_KEY_ID = os.getenv(\"AWS_ACCESS_KEY_ID\")\nAWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
-        "label": "AWS_SECRET_ACCESS_KEY",
-        "kind": 5,
-        "importPath": "backend.config",
-        "description": "backend.config",
-        "peekOfCode": "AWS_SECRET_ACCESS_KEY = os.getenv(\"AWS_SECRET_ACCESS_KEY\")",
-        "detail": "backend.config",
-        "documentation": {}
-    },
-    {
         "label": "device",
         "kind": 5,
         "importPath": "backend.image_analysis",
@@ -445,7 +347,7 @@
         "kind": 2,
         "importPath": "backend.story_generator",
         "description": "backend.story_generator",
-        "peekOfCode": "def generate_story(image_caption):\n    \"\"\"Generates a story based on an image caption.\"\"\"\n    state = initial_state(image_caption)\n    final_state = graph_executor.invoke(state)\n    return {\n        \"story\": final_state[\"story\"],\n        \"choices\": final_state[\"choices\"]\n    }\n# def continue_story(story, user_choice):\n#     \"\"\"Continue the story based on the user’s choice with optimized performance.\"\"\"",
+        "peekOfCode": "def generate_story(image_caption):\n    \"\"\"Generates a story based on an image caption.\"\"\"\n    state = initial_state(image_caption)\n    final_state = graph_executor.invoke(state)\n    return {\n        \"story\": final_state[\"story\"],\n        \"choices\": final_state[\"choices\"]\n    }\ndef continue_story(story, user_choice):\n    \"\"\"Continue the story based on the user’s choice with optimized performance.\"\"\"",
         "detail": "backend.story_generator",
         "documentation": {}
     },
@@ -490,7 +392,7 @@
         "kind": 2,
         "importPath": "backend.story_graph",
         "description": "backend.story_graph",
-        "peekOfCode": "def generate_dynamic_choices(story: str) -> list:\n    \"\"\"Generate choices by analyzing the latest part of the story.\"\"\"\n    if \"storm\" in story:\n        return [\"Seek shelter in a nearby cave\", \"Confront the storm head-on\", \"Find a guide to navigate through the storm\"]\n    elif \"map\" in story:\n        return [\"Follow the map's hidden clues\", \"Burn the map and walk away\", \"Seek help from a mysterious traveler\"]\n    else:\n        return [\"Introduce a powerful adversary\", \"Reveal a hidden treasure\", \"Change the setting dramatically\"]\n# ✅ Define LangGraph flow\nstory_graph = StateGraph(dict)  # ✅ Define state as a dictionary",
+        "peekOfCode": "def generate_dynamic_choices(story: str) -> list:\n    \"\"\"Generate choices by analyzing the latest part of the story.\"\"\"\n    if \"storm\" in story:\n        return [\"Seek shelter in a nearby cave\", \"Confront the storm head-on\", \"Find a guide to navigate through the storm\"]\n    elif \"map\" in story:\n        return [\"Follow the map's hidden clues\", \"Burn the map and walk away\", \"Seek help from a mysterious traveler\"]\n    else:\n        return [\"Introduce a powerful adversary\", \"Reveal a hidden treasure\", \"Change the setting dramatically\"]\nstory_graph = StateGraph(dict)  \nstory_graph.add_node(\"generate_story\", generate_story)",
         "detail": "backend.story_graph",
         "documentation": {}
     },
@@ -499,7 +401,7 @@
         "kind": 5,
         "importPath": "backend.story_graph",
         "description": "backend.story_graph",
-        "peekOfCode": "MODEL_NAME = \"microsoft/Phi-3.5-mini-instruct\"\n# ✅ Load tokenizer and model\ntokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)\nmodel = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\n# ✅ Initial state with image caption and user-selected story progression data\n# def initial_state(image_caption: str) -> Dict[str, Any]:\n#     return {\n#         \"image_caption\": image_caption,",
+        "peekOfCode": "MODEL_NAME = \"microsoft/Phi-3.5-mini-instruct\"\n# ✅ Load tokenizer and model\ntokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)\nmodel = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\ndef initial_state(image_caption: str) -> Dict[str, Any]:\n    return {\n        \"image_caption\": image_caption,\n        \"story\": \"\",",
         "detail": "backend.story_graph",
         "documentation": {}
     },
@@ -508,7 +410,7 @@
         "kind": 5,
         "importPath": "backend.story_graph",
         "description": "backend.story_graph",
-        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)\nmodel = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\n# ✅ Initial state with image caption and user-selected story progression data\n# def initial_state(image_caption: str) -> Dict[str, Any]:\n#     return {\n#         \"image_caption\": image_caption,\n#         \"story\": \"\",\n#         \"choices\": [],",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)\nmodel = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\ndef initial_state(image_caption: str) -> Dict[str, Any]:\n    return {\n        \"image_caption\": image_caption,\n        \"story\": \"\",\n        \"choices\": [],\n        \"story_continued\": False  # ✅ New flag to track story continuation",
         "detail": "backend.story_graph",
         "documentation": {}
     },
@@ -517,7 +419,7 @@
         "kind": 5,
         "importPath": "backend.story_graph",
         "description": "backend.story_graph",
-        "peekOfCode": "model = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\n# ✅ Initial state with image caption and user-selected story progression data\n# def initial_state(image_caption: str) -> Dict[str, Any]:\n#     return {\n#         \"image_caption\": image_caption,\n#         \"story\": \"\",\n#         \"choices\": [],\n#         \"user_selections\": []  # Track user choices for continuity",
+        "peekOfCode": "model = AutoModelForCausalLM.from_pretrained(\n    MODEL_NAME, torch_dtype=torch.float16, device_map=\"auto\"\n)\ndef initial_state(image_caption: str) -> Dict[str, Any]:\n    return {\n        \"image_caption\": image_caption,\n        \"story\": \"\",\n        \"choices\": [],\n        \"story_continued\": False  # ✅ New flag to track story continuation\n    }",
         "detail": "backend.story_graph",
         "documentation": {}
     },
@@ -526,7 +428,7 @@
         "kind": 5,
         "importPath": "backend.story_graph",
         "description": "backend.story_graph",
-        "peekOfCode": "story_graph = StateGraph(dict)  # ✅ Define state as a dictionary\nstory_graph.add_node(\"generate_story\", generate_story)\nstory_graph.add_node(\"handle_choice\", handle_choice)\nstory_graph.set_entry_point(\"generate_story\")\n# story_graph.add_conditional_edges(\"handle_choice\", lambda state: \"handle_choice\" if state[\"choices\"] else END)\n# Automatically transition from \"generate_story\" to \"handle_choice\" after the first generation\nstory_graph.add_conditional_edges(\"generate_story\", lambda state: \"handle_choice\")\n# Loop \"handle_choice\" for continuing the story until the user ends it\nstory_graph.add_conditional_edges(\"handle_choice\", lambda state: \"handle_choice\" if state.get(\"choices\") else END)\ngraph_executor = story_graph.compile()",
+        "peekOfCode": "story_graph = StateGraph(dict)  \nstory_graph.add_node(\"generate_story\", generate_story)\nstory_graph.add_node(\"handle_choice\", handle_choice)\nstory_graph.set_entry_point(\"generate_story\")\n# Automatically transition from \"generate_story\" to \"handle_choice\" after the first generation\nstory_graph.add_conditional_edges(\"generate_story\", lambda state: \"handle_choice\")\n# Loop \"handle_choice\" for continuing the story until the user ends it\nstory_graph.add_conditional_edges(\"handle_choice\", lambda state: \"handle_choice\" if state.get(\"choices\") else END)\ngraph_executor = story_graph.compile()",
         "detail": "backend.story_graph",
         "documentation": {}
     },
