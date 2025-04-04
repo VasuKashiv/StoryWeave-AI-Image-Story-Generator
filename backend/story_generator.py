@@ -9,20 +9,6 @@ def generate_story(image_caption):
         "story": final_state["story"],
         "choices": final_state["choices"]
     }
-# def continue_story(story, user_choice):
-#     """Continue the story based on the user’s choice with optimized performance."""
-#     state = {"story": story, "user_choice": user_choice}
-
-#     # New Prompt Format to Improve Continuity
-#     state["prompt"] = f"Continue this immersive story: {story}\nAdd a twist based on this choice: {user_choice}.\nMaintain deep emotions, mystery, and sensory details."
-
-#     # Invoke the optimized graph execution
-#     final_state = graph_executor.invoke(state)
-
-#     return {
-#         "story": final_state["story"],
-#         "choices": final_state["choices"]
-#     }
 
 def continue_story(story, user_choice):
     """Continue the story based on the user’s choice with optimized performance."""
